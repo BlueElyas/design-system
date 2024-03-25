@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Siena";
+  src: url("/resources/fonts/FS-Siena-Regular.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  background-color: #ffe9e1;
+  color: #2f4858;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+  text-align: justify;
+}
+
+/* Color section */
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+details {
+  max-width: max-content;
+  color: whitesmoke;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+summary {
+  font-size: 20px;
+}
+
+details > p {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.warm,
+.cool {
+  color: #2d2b29;
+}
+
+.warm {
+  background-color: #bcab93;
+}
+
+.cool {
+  background-color: #e1d4bf;
+}
+
+.green {
+  background-color: #505e53;
+}
+
+.black {
+  background-color: #2d2b29;
+}
+
+h4 {
+  margin-top: 25px;
+}
+
+/* Font section */
+
+.fonts {
+  display: flex;
+  max-width: min-content;
+  flex-direction: column;
+  gap: 40px;
+}
+
+article.flex {
+  flex-direction: column;
+}
+
+article h1 {
+  font-size: 100px;
+}
+
+.siena {
+  font-family: "Siena";
+  font-size: 48px;
+}
+
+.examples {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  width: 300px;
+}
+
+div.siena p {
+  width: 300px;
+  font-size: 24px;
+}
+
+.fox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.fox p {
+  font-size: 24px;
+}
+
+hr {
+  border: 1px solid black;
+  width: 400px;
+}
+
+.nunito {
+  font-family: "Nunito Sans";
+}
+
+/* Text styles design */
+
+.styles {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.style-list {
+  line-height: 1.5;
+}
+
+.style-list ul {
+  margin-top: 15px;
+}
+
+/* Typography */
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
